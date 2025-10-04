@@ -1,0 +1,27 @@
+# Core dependencies for the Python-Programs repository
+# Testing framework
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Type checking
+mypy>=1.0.0
+
+# Code formatting and linting
+black>=22.0.0
+flake8>=5.0.0
+isort>=5.10.0
+
+# Documentation
+sphinx>=5.0.0
+sphinx-rtd-theme>=1.0.0
+
+# Development tools
+pre-commit>=2.20.0
+
+# Scientific computing (for existing NumPy and ML examples)
+numpy>=1.21.0
+matplotlib>=3.5.0
+
+# Optional: For enhanced decimal precision in financial calculations
+# Already using built-in decimal module, but could add:
+# decimal-precision>=1.0.0
